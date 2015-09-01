@@ -1,0 +1,11 @@
+#!/bin/bash
+# Author : Osman.Marks@gmail.com
+ 
+amount1=0
+amount=0
+for amount in $(hadoop dfs -du hdfs://hadoopn.rep-back.lh.omg.bbc.co.uk/user/lisuser/iplayer_livestats | awk {'print $1'}) 
+    do amount1=$(($amount1 + amount ))
+done 
+TOTAL=$amount1 
+echo "TOTAL : ${amount1}"
+if [ ????????????
