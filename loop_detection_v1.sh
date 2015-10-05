@@ -13,7 +13,7 @@ then
          if [ "$Current_File" == "$Old_File" ]
 
                 then
-                         mail -s "Looping Iplayer Istats" < /tmp/current_iplayer_file osman.marks.ext@bbc.co.uk tom.collins@bbc.co.uk craig.phillips@bbc.co.uk david.hodgkinson.ext@bbc.co.uk
+                         mail -s "LIVE - DO NOT IGNORE - Looping Iplayer Istats - https://confluence.dev.bbc.co.uk/display/iStatsAV/iStats+AV+run+book " < /tmp/current_iplayer_file osman.marks.ext@bbc.co.uk tom.collins@bbc.co.uk craig.phillips@bbc.co.uk david.hodgkinson.ext@bbc.co.uk FMAnalyticsSupportTeam@bbc.co.uk
                 else
                 echo "All Looks Good"
                 echo "$Current_File" > /tmp/current_iplayer_file
